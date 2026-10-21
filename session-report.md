@@ -13,14 +13,12 @@
 ### 10:22–10:30 - Ehnii tuluv shalgah
 
 - App: http://localhost:3000
-- Ehnii husnegtiin muriin too : [3]
+- Ehnii husnegtiin muriin too : [4] table header orson
 - Niit nomiin too: [4]
 - Husnegtiin baganuud: [4]
 - Ustgah tovchnii ungu: [Nogoon]
 - Screenchot: screenshots/initial_state.png
 - Ur dun: []
-
-### 10:30–10: - Nom nemeh test
 
 ### 10:33 T01: Ner zohiogch, 1999 gesen onii utgiig hiigeed nemeh tovch darsan
 
@@ -31,7 +29,7 @@
 ### 10:39 T02: Nomiin ner hooson uyd shalgah
 
 - Expected: [Nom nemegdehgui aldaanii medeelel gargana]
-- Actual: [Nom nemegdlee gesen text garch husnegted shine nur nemegdsen gedhee garchig heseg hooson, niit nomiin too 1 eer nemegdej 6 bolson]
+- Actual: [Nom nemegdlee gesen text garch husnegted shine mur nemegdsen gedhee garchig heseg hooson, niit nomiin too 1 eer nemegdej 6 bolson]
 - Result: Fail hooson garchigtai nomiig app zuvshuurch nemsen
   [Тест хийхэд саад болсон зүйлс. Саад гараагүй бол "Саад гараагүй" гэж бичнэ.]
 - Bug ID: BUG-01
@@ -126,6 +124,7 @@
 
 ## Цагийн задаргаа
 
-- Setup: [13]%
-- Тест дизайн ба гүйцэтгэл: [67]%
-- Согог судлах: [20]%
+- Session 84 minute
+- Setup: 11 minute [13]%
+- Тест дизайн ба гүйцэтгэл: 56 minute [67]%
+- Согог судлах: 17 minute [20]%
