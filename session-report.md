@@ -18,7 +18,6 @@
 - Husnegtiin baganuud: [4]
 - Ustgah tovchnii ungu: [Nogoon]
 - Screenchot: screenshots/initial_state.png
-- Ur dun: []
 
 ### 10:33 T01: Ner zohiogch, 1999 gesen onii utgiig hiigeed nemeh tovch darsan
 
