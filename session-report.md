@@ -2,7 +2,7 @@
 
 **Тестер:** [Т.Мөнхцэцэн]
 
-**Огноо:** [2026-10-21, 10:22 – 11:46]
+**Огноо:** [2026-10-25, 15:40 – 16:40]
 
 **Mission:** Уншлагын жагсаалт аппын чанарыг шинжлэх
 
@@ -10,76 +10,73 @@
 
 ## Тэмдэглэл (он цагийн дарааллаар)
 
-### 10:22–10:30 - Ehnii tuluv shalgah
+### 15:40–15:43 - Ehnii tuluv shalgah
 
 - App: http://localhost:3000
-- Ehnii husnegtiin muriin too : [4] table header orson
+- Ehnii husnegtiin muriin too : [3] table header oroogui
 - Niit nomiin too: [4]
 - Husnegtiin baganuud: [4]
 - Ustgah tovchnii ungu: [Nogoon]
-- Screenchot: screenshots/initial_state.png
+- Hamgiin shine on 2008
+- Screenshot: screenshots/initial_state.png
+- Ajiglalt: Husnegted 3 nom baigaa bolovch niit nomiin tooluur 4 gej garsan. Iimees ehnii tuluv deer tooluur bolon husnegtiin bodit ugugdliin too zuruutei baina.
 
-### 10:33 T01: Ner zohiogch, 1999 gesen onii utgiig hiigeed nemeh tovch darsan
+### 15:43-15:48 T01: Ner zohiogch, 1999 gesen onii utgiig hiigeed nemeh tovch darsan
 
 - Expected: [Nom amjilttai nemegdej, husnegted shine mur uusch niit nomiin tooluud 1 eer nemegdene]
-- Actual: [Nom nemegdlee gesen text garch husnegted shine nur nemegdsen, niit nomiin too 1 eer nemegdej 5 bolson]
+- Actual: [Nom nemegdlee gesen text garch husnegted shine mur nemegdsen, niit nomiin too 1 eer nemegdej 5 bolson, husnegtiin muriin too 1 eer nemegdej 4 bolson]
 - Result: Pass - nom nemeh uildel amijilttai bolson
+- Issues: [Саад гараагүй]
 
-### 10:39 T02: Nomiin ner hooson uyd shalgah
+### 15:48-15:56 T02: Nomiin ner hooson uyd shalgah
 
 - Expected: [Nom nemegdehgui aldaanii medeelel gargana]
-- Actual: [Nom nemegdlee gesen text garch husnegted shine mur nemegdsen gedhee garchig heseg hooson, niit nomiin too 1 eer nemegdej 6 bolson]
+- Actual: [Nom nemegdlee gesen text garch husnegted shine mur nemegdsen gedhee garchig heseg hooson, niit nomiin too 1 eer nemegdej 6 bolson, niit muriin too 1 eer nemegdej 5 bolson]
 - Result: Fail hooson garchigtai nomiig app zuvshuurch nemsen
-  [Тест хийхэд саад болсон зүйлс. Саад гараагүй бол "Саад гараагүй" гэж бичнэ.]
-- Bug ID: BUG-01
+- Issues: [Саад гараагүй]
+- bug ID: bug-01
 
-### 10:45 T03: Zohiogchiin ner hooson
+### 15:56-15:59 T03: Zohiogchiin ner hooson
 
 - Expected: [Nom nemegdehgui aldaanii medeelel gargana]
-- Actual: [Nom nemegdlee gesen text garch husnegted shine nur nemegdsen gedhee garchig heseg hooson, niit nomiin too 1 eer nemegdej 7 bolson]
+- Actual: [Nom nemegdlee gesen text garch husnegted shine mur nemegdsen gedhee garchig heseg hooson, niit nomiin too 1 eer nemegdej 7 bolson, husnegtiin mur 6 bolson]
 - Result: Fail hooson Zohiogchiin nertei nomiig app zuvshuurch nemsen
-  [Тест хийхэд саад болсон зүйлс. Саад гараагүй бол "Саад гараагүй" гэж бичнэ.]
-- Bug ID: BUG-02
+- Issues: [Саад гараагүй]
+- bug ID: bug-02
 
-### 10:49 T04: Huchintei bus on - 999
-
-- Expected: [Nom nemegdehgui buruu oniig medegdene]
-- Actual: [Nom nemegdlee gesen text garch husnegted shine nur nemegdsen, niit nomiin too 1 eer nemegdej 8 bolson]
-- Result: Fail zuvshuurugduugui onii nomiig app zuvshuurch nemsen
-  [Тест хийхэд саад болсон зүйлс. Саад гараагүй бол "Саад гараагүй" гэж бичнэ.]
-- Bug ID: BUG-03
-
-### 10:54 T05: Huchintei bus on - 2101
+### 15:59-16:05 T04: Huchintei bus on - 999
 
 - Expected: [Nom nemegdehgui buruu oniig medegdene]
-- Actual: [Nom nemegdlee gesen text garch husnegted shine nur nemegdsen, niit nomiin too 1 eer nemegdej 9 bolson]
+- Actual: [Nom nemegdlee gesen text garch husnegted shine mur nemegdej 7 bolson, niit nomiin too 1 eer nemegdej 8 bolson]
 - Result: Fail zuvshuurugduugui onii nomiig app zuvshuurch nemsen
-  [Тест хийхэд саад болсон зүйлс. Саад гараагүй бол "Саад гараагүй" гэж бичнэ.]
-- Bug ID: BUG-04
+- Issues: [Саад гараагүй]
+- bug ID: bug-03
 
-### 10:54 T06: Davhardsan nom 2 udaa nemeh oroldlogo hiisen
+### 16:05-16:10 T05: Huchintei bus on - 2101
+
+- Expected: [Nom nemegdehgui buruu oniig medegdene]
+- Actual: [Nom nemegdlee gesen text garch husnegted shine nur nemegdej 8 bolson, niit nomiin too 1 eer nemegdej 9 bolson, hamgiin shine on 2101 bolson]
+- Result: Fail zuvshuurugduugui onii nomiig app zuvshuurch nemsen
+- Issues: [Саад гараагүй]
+- bug ID: bug-04
+
+### 16:10-16:15 T06: Davhardsan nom nemeh oroldlogo hiisen
 
 - Expected: [Ijil ner, zohiogchtoi nom davhar nemegdehgui]
-- Actual: [Nom nemeh uildliig sanamsarguigeer 2 udaa guitsetgnii ulmaas husnegted 2 shine mur nemegdej Nom nemegdlee gesen text garch husnegted shine murnuud nemegdsen, niit nomiin too 2 oor nemegdej 11 bolson]
-- Result: Davhardsan nertei, zohoigchtoi nomiig 2 udaa nemehed 2 uuland ni app zuvshuurch nemsen
-- Tailbar: Testiin uildliig tuluvlusnuud olon udaa guitsetgesen tul dung batalgaajuulah bolomjgui bolson. Testiig dahin zuv guitsetgene
-- Bug ID: BUG-05 batalgaagui
+- Actual: [Nom nemegdlee gesen text garch husnegted shine mur nemegdej 9 bolson, niit nomiin too 1 eer nemegdej 10 bolson]
+- Result: fail Davhardsan Ner, zohiogchtoi nomiig app zuvshuurch nemsen
+- Issues: [Саад гараагүй]
+- bug ID: bug-05
 
-### 11:04 T06: Davhardsan nom 1 udaa nemeh oroldlogo hiisen
-
-- Expected: [Ijil ner, zohiogchtoi nom davhar nemegdehgui]
-- Actual: [Nom nemegdlee gesen text garch husnegted shine murnuud nemegdsen, niit nomiin too 1 eer nemegdej 12 bolson]
-- Result: Davhardsan Ner, zohiogchtoi nomiig app zuvshuurch nemsen
-- Bug ID: BUG-06
-
-### 11:10 T07: Nom haih uildel
+### 16:15-16:20 T07: Nom haih uildel
 
 - Expected: [Haisan nom husnegted haragdana, hailtad tohiroogui busad nom haragdahgui, niit nomiin tooluur uurchlugduhgui]
-- Actual: [hailtiin hesegt nomiin buten neriig oruulaad haih tovchiig darahad husnegted tuhain nertei nomuud haradgsan mun husad nom haragdaagui, niit nomiin tooluur uurchlugduugui]
+- Actual: [hailtiin hesegt nomiin buten neriig oruulaad haih tovchiig darahad husnegted tuhain nertei nomuud haradgsan mun busad nom haragdaagui, niit nomiin tooluur uurchlugduugui]
 - Result: Pass app hailtad tohirson nomiig husnegted haruulsan
-- Bug ID: baihgui
+- Issues: [Саад гараагүй]
+- bug ID: baihgui
 
-### 11:13 T08: API test - Nom nemeh
+### 16:20-16:26 T08: API test - Nom nemeh
 
 - Endpoint : POST http://localhost:3000/api/books
 - Request body:
@@ -88,25 +85,27 @@
   "title": "test nom 6",
   "year": "2000"
   }
-- Expected: [Huchintei ugugdultei huselt ilgeehed nom amjilttai nemegdej amilitiin hariu butsna]
+- Expected: [Huchintei ugugdultei huselt ilgeehed nom amjilttai nemegdej amjiltiin hariu butsna]
 - Actual: \
   {
   "result": "OK",
-  "id": 12
+  "id": 10
   }
-- Result: Pass api hulet amijilttai bolovsruulagdaj id: 12 buhii burtgel uussen
-- Bug ID: baihgui
+- Result: Pass api huselt amijilttai bolovsruulagdaj id: 10 buhii burtgel uussen
+- Issues: [Саад гараагүй]
+- bug ID: baihgui
 
-### 11:32 T09: Nom ustgah test
+### 16:26-16:33 T09: Nom ustgah test
 
-- Ustgahaas umnuh niit nom: 13
-- Ustgahaas umnuh husnegtiin muriin too: 13
-- Expected: [Songoson nom husnegtees ustaj, husnegtiin muriin too bolon niit nomiin too tus bur 1 eer buurna]
-- Actual: [Ustgah tovchiig darsnii daraa songoson nom husnegtees arilsan, husnegtiin muriin too 13->12 bolj niit nomiin too 13-> 12 bolson]
-- Result: PASS - num ustgah uildel amjilltai ajilsan
-- Bug ID: baihgui
+- Ustgahaas umnuh niit nom: 11
+- Ustgahaas umnuh husnegtiin muriin too: 10
+- Expected: [Songoson nom husnegtees ustgaj, husnegtiin muriin too bolon niit nomiin too tus bur 1 eer buurna]
+- Actual: [Ustgah tovchiig darsnii daraa songoson nom husnegtees arilsan, husnegtiin muriin too 10->9 bolj niit nomiin too 11-> 10 bolson]
+- Result: PASS - nom ustgah uildel amjilltai ajilsan
+- Issues: [Саад гараагүй]
+- bug ID: baihgui
 
-### 11:39 T10: API surug test - hooson nomiin ner
+### 16:33-16:40 T10: API surug test - hooson nomiin ner
 
 - Endpoint: POST http://localhost:3000/api/books
 - Request body:
@@ -116,14 +115,15 @@
   "year": 2000
   }
 - Expected: [API 400 bad request esvel 422 butsaaj nom uusgehgui baih]
-- Actual: [API 201 created hariu butsaaj {"result":"OK","id":15} gesen hariugaar shine burtgel uusgesen]
+- Actual: [API 201 created hariu butsaaj {"result":"OK","id":11} gesen hariugaar shine burtgel uusgesen]
 - Result: FAIL hooson nertei nomiin ugugdliig api huleen avsan
-- Bug ID: BUG-07
+- Issues: [Саад гараагүй]
+- bug ID: bug-06
 - Evidence: evidence/T10_api_empty_title.txt evidence/T10_api_empty_title.png
 
 ## Цагийн задаргаа
 
-- Session 84 minute
-- Setup: 11 minute [13]%
-- Тест дизайн ба гүйцэтгэл: 56 minute [67]%
-- Согог судлах: 17 minute [20]%
+- Session 60 minute
+- Setup: 5 minute [8.3]%
+- Тест дизайн ба гүйцэтгэл: 45 minute [75]%
+- Согог судлах: 10 minute [16.7]%
